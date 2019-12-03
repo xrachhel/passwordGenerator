@@ -237,4 +237,3 @@ function copyClipboard(){
 
 
 
-// double check everything, sometimes the random doesnt give at least one type of every character
