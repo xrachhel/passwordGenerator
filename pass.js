@@ -1,5 +1,10 @@
-confirm("Hi! Welcome to the password generator! Are you ready to create a new password?")
+function passwordButton(){
 
+var yesNo = confirm("Hi! Welcome to the password generator! Are you ready to create a new password?")
+if(yesNo === false){
+    alert("Awww hope you come back soon!")
+}
+else{
 var userLength = prompt("How long would you like your password to be? (Choose between 8-128 characters)")
 if(userLength < 8 || userLength > 128){
     var userLength = prompt("Please enter a number between 8 to 128")
@@ -217,6 +222,8 @@ else if (special === true && number === true && lowerCase === true && upperCase 
 else{
     alert("Please pick at least one character type");
 }
+}
+}
 function copyClipboard(){
     var range = document.createRange();
     range.selectNode(document.getElementById("userpass"))
@@ -226,12 +233,7 @@ function copyClipboard(){
     window.getSelection().removeAllRanges();
 }
 
-// function copyClipboard(){
-//     var copyText = document.getElementById("userpass");
-//     copyText.select();
-//     document.execCommand("copy");
-//     alert("Copied the text: " + copyText.value) 
-// }
+
 
 
 // double check everything, sometimes the random doesnt give at least one type of every character
