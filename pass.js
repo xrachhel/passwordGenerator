@@ -231,6 +231,7 @@ function copyClipboard(){
     window.getSelection().addRange(range);
     document.execCommand("copy");
     window.getSelection().removeAllRanges();
+    alert("Copied your new password!")
 }
 
 

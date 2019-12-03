@@ -13,8 +13,23 @@
        
 
 <h1>Password Generator</h1>
+<div class="container">
+        <div class="jumbotron" style="background-color: white; border: 1px solid white; box-shadow: 0 4px 8px 0 grey; ">
+          <h2>Generate a password</h2>
+          <hr>
+          <div class="dotted">
+                <div id="userpass" onclick="copyClipboard()">
+                    Your Secure Password
+                </div>
+            </div>
+        <hr>
+        <button onclick="passwordButton()" type="button" class="btn btn-danger btn-lg" id="red">Generate Password</button>
+        <button onclick="copyClipboard()" type="button" class="btn btn-secondary btn-lg" id="grey">Copy to Clipboard</button>
 
-<div class="main">
+        </div>
+      </div>
+
+<!-- <div class="main">
     <h2>Generate a password</h2>
     <hr>
         <div class="dotted">
@@ -27,7 +42,7 @@
     <button onclick="copyClipboard()" type="button" class="btn btn-secondary btn-lg" id="grey">Copy to Clipboard</button>
     
 
-</div>
+</div> -->
 
 <script src="pass.js"></script>
 </body>

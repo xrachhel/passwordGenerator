@@ -1,7 +1,7 @@
 h1{
     text-align: center;
 }
-.main{
+/* .main{
     width: 960px;
     height: auto;
     align-content: center;
@@ -13,7 +13,7 @@ h1{
     background-color: #ffffff;
     border: 1px solid #dddddd;
     box-shadow: 0 4px 8px 0 grey;
-}
+} */
 .dotted{
     text-align: center;
     border-style: dashed;
@@ -28,7 +28,8 @@ h1{
 }
 #grey{
     border-radius: 25px;
-    margin-left: 400px;
+    position: absolute;
+
 }
 #userpass{
     color: grey;
