@@ -39,4 +39,4 @@ if (special === true && number === false && lowerCase === false && upperCase ===
      document.getElementById("userpass").textContent = makepassword(userLength);
 }
 ```
-I used 'if' conditional statements 
+I used 'if' conditional statements to create the password based on the different character types the user picks. Depending on how many character types the user pics, i fed the character types as a string into a variable, which i then iterated through based on the the length the user asked for using the math.random function in javascript. 
