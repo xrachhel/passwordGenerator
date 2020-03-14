@@ -14,7 +14,6 @@ This application is a random password generator based on different character typ
 
 * [See Live Site](https://xrachhel.github.io/passwordGenerator/)
 
-
 ## Code snippet 
 ```html
 if (special === true && number === false && lowerCase === false && upperCase === false){
