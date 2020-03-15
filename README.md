@@ -1,10 +1,9 @@
 # Password Generator
 This application is a random password generator based on different character types that the user picks. Users have the choice from special, numeric, upper case, and lower case characters. They can decide for their password to contain as many of the character types as they want, but they have to pick at least one type. The password length must be between 8-128 characters, or the generator will not make a password. There is also a button on the application that copies the password to the clipboard. 
 
-## Screenshot 
 ![site](screenshot.png)
 
-## Built With
+## Technologies Used
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): used for structuring and creating elements on the DOM
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): used to style html elements on the page
@@ -12,7 +11,7 @@ This application is a random password generator based on different character typ
 
 ## Deployed Link
 
-* [See Live Site](https://xrachhel.github.io/passwordGenerator/)
+[View Live Site](https://xrachhel.github.io/passwordGenerator/)
 
 ## Code snippet 
 ```html
